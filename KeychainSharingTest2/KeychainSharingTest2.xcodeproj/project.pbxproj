@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9EB246E1EDA9D570079A39D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB246D1EDA9D570079A39D /* AppDelegate.swift */; };
+		E9EB24701EDA9D570079A39D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EB246F1EDA9D570079A39D /* ViewController.swift */; };
+		E9EB24731EDA9D570079A39D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EB24711EDA9D570079A39D /* Main.storyboard */; };
+		E9EB24751EDA9D570079A39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EB24741EDA9D570079A39D /* Assets.xcassets */; };
+		E9EB24781EDA9D570079A39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EB24761EDA9D570079A39D /* LaunchScreen.storyboard */; };
+		F31A96B162351BA8DFDD4F34 /* Pods_KeychainSharingTest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D9118B0FA83DD12A9B9306 /* Pods_KeychainSharingTest2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82BD88110001780D898E8759 /* Pods-KeychainSharingTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainSharingTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeychainSharingTest2/Pods-KeychainSharingTest2.release.xcconfig"; sourceTree = "<group>"; };
+		A2D9118B0FA83DD12A9B9306 /* Pods_KeychainSharingTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeychainSharingTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46AB0771C69935F1CB5C193 /* Pods-KeychainSharingTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainSharingTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeychainSharingTest2/Pods-KeychainSharingTest2.debug.xcconfig"; sourceTree = "<group>"; };
+		E9EB246A1EDA9D570079A39D /* KeychainSharingTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainSharingTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EB246D1EDA9D570079A39D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9EB246F1EDA9D570079A39D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9EB24721EDA9D570079A39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9EB24741EDA9D570079A39D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9EB24771EDA9D570079A39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9EB24791EDA9D570079A39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9EB247F1EDAA0CB0079A39D /* KeychainSharingTest2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeychainSharingTest2.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9EB24671EDA9D570079A39D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31A96B162351BA8DFDD4F34 /* Pods_KeychainSharingTest2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036DF64E0D6693C8EF4CD2CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2D9118B0FA83DD12A9B9306 /* Pods_KeychainSharingTest2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7963BA7E290A4010F092BB07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E46AB0771C69935F1CB5C193 /* Pods-KeychainSharingTest2.debug.xcconfig */,
+				82BD88110001780D898E8759 /* Pods-KeychainSharingTest2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9EB24611EDA9D560079A39D = {
+			isa = PBXGroup;
+			children = (
+				E9EB246C1EDA9D570079A39D /* KeychainSharingTest2 */,
+				E9EB246B1EDA9D570079A39D /* Products */,
+				7963BA7E290A4010F092BB07 /* Pods */,
+				036DF64E0D6693C8EF4CD2CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9EB246B1EDA9D570079A39D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9EB246A1EDA9D570079A39D /* KeychainSharingTest2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9EB246C1EDA9D570079A39D /* KeychainSharingTest2 */ = {
+			isa = PBXGroup;
+			children = (
+				E9EB247F1EDAA0CB0079A39D /* KeychainSharingTest2.entitlements */,
+				E9EB246D1EDA9D570079A39D /* AppDelegate.swift */,
+				E9EB246F1EDA9D570079A39D /* ViewController.swift */,
+				E9EB24711EDA9D570079A39D /* Main.storyboard */,
+				E9EB24741EDA9D570079A39D /* Assets.xcassets */,
+				E9EB24761EDA9D570079A39D /* LaunchScreen.storyboard */,
+				E9EB24791EDA9D570079A39D /* Info.plist */,
+			);
+			path = KeychainSharingTest2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9EB24691EDA9D570079A39D /* KeychainSharingTest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EB247C1EDA9D570079A39D /* Build configuration list for PBXNativeTarget "KeychainSharingTest2" */;
+			buildPhases = (
+				33B7F643F0CAC77CABDBA28F /* [CP] Check Pods Manifest.lock */,
+				E9EB24661EDA9D570079A39D /* Sources */,
+				E9EB24671EDA9D570079A39D /* Frameworks */,
+				E9EB24681EDA9D570079A39D /* Resources */,
+				B31775ED5049478B5B8858D2 /* [CP] Embed Pods Frameworks */,
+				E950C7AFDC19071F971F81CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainSharingTest2;
+			productName = KeychainSharingTest2;
+			productReference = E9EB246A1EDA9D570079A39D /* KeychainSharingTest2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9EB24621EDA9D560079A39D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Akira Matsuda";
+				TargetAttributes = {
+					E9EB24691EDA9D570079A39D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3VC35JGS33;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E9EB24651EDA9D560079A39D /* Build configuration list for PBXProject "KeychainSharingTest2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9EB24611EDA9D560079A39D;
+			productRefGroup = E9EB246B1EDA9D570079A39D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9EB24691EDA9D570079A39D /* KeychainSharingTest2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9EB24681EDA9D570079A39D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EB24781EDA9D570079A39D /* LaunchScreen.storyboard in Resources */,
+				E9EB24751EDA9D570079A39D /* Assets.xcassets in Resources */,
+				E9EB24731EDA9D570079A39D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33B7F643F0CAC77CABDBA28F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B31775ED5049478B5B8858D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeychainSharingTest2/Pods-KeychainSharingTest2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E950C7AFDC19071F971F81CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeychainSharingTest2/Pods-KeychainSharingTest2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9EB24661EDA9D570079A39D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EB24701EDA9D570079A39D /* ViewController.swift in Sources */,
+				E9EB246E1EDA9D570079A39D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9EB24711EDA9D570079A39D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9EB24721EDA9D570079A39D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9EB24761EDA9D570079A39D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9EB24771EDA9D570079A39D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9EB247A1EDA9D570079A39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9EB247B1EDA9D570079A39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9EB247D1EDA9D570079A39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46AB0771C69935F1CB5C193 /* Pods-KeychainSharingTest2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeychainSharingTest2/KeychainSharingTest2.entitlements;
+				DEVELOPMENT_TEAM = 3VC35JGS33;
+				INFOPLIST_FILE = KeychainSharingTest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akira.matsuda.KeychainSharingTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E9EB247E1EDA9D570079A39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BD88110001780D898E8759 /* Pods-KeychainSharingTest2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeychainSharingTest2/KeychainSharingTest2.entitlements;
+				DEVELOPMENT_TEAM = 3VC35JGS33;
+				INFOPLIST_FILE = KeychainSharingTest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akira.matsuda.KeychainSharingTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9EB24651EDA9D560079A39D /* Build configuration list for PBXProject "KeychainSharingTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EB247A1EDA9D570079A39D /* Debug */,
+				E9EB247B1EDA9D570079A39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EB247C1EDA9D570079A39D /* Build configuration list for PBXNativeTarget "KeychainSharingTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EB247D1EDA9D570079A39D /* Debug */,
+				E9EB247E1EDA9D570079A39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9EB24621EDA9D560079A39D /* Project object */;
+}
